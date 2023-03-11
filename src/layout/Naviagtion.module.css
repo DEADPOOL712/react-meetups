@@ -1,0 +1,31 @@
+.header {
+  background-color: #393e46;
+  height: 6rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #eeeeee;
+}
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
+.nav ul li {
+  list-style: none;
+  font-size: 1.3rem;
+  transition: all 0.2s ease;
+}
+.nav ul li:hover {
+  transform: scale(1.1);
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #00adb5;
+}

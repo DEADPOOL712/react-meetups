@@ -1,0 +1,28 @@
+.form_div {
+  width: fit-content;
+  margin: auto;
+}
+.form {
+  padding: 1rem 2rem;
+  /* border: 1px solid; */
+  text-align: right;
+  box-shadow: 0 0 4px rgb(0, 0, 0, 0.25);
+}
+.form input {
+  padding-left: 0.5rem;
+  width: 25rem;
+  height: 3rem;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: 1px solid #9999;
+}
+input:focus {
+  outline: none !important;
+}
+
+.form_btn {
+  width: 7rem;
+  margin-top: 1rem;
+  box-shadow: none;
+}
